@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="style.css">
+    <!--    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card1">
+            <div class="welcome">
+                <h1 id="welcome-msg">Welcome to chat room!</h1>
+            </div>
+            <div class="form">
+                <form id="name-form">
+                    <input type="text" placeholder="Enter your name" id="name" class="inputFields">
+                    <button id="connect-btn" class="btn">Connect</button>
+                </form>
+            </div>
+        </div>
+<!--    For showing the messages-->
+        <div class="card2" style="display: none;">
+            <h3 class="welcome" id="card2WelcomeMsg"></h3>
+            <div class="fields">
+                <input type="text" placeholder="Enter message" id="message" class="inputFields">
+                <button id="send-btn" class="btn">Send</button>
+                <button id="disconnect-btn" class="btn">Disconnect</button>
+            </div>
+            <div class="msgDiv">
+                <table id="msgTable"></table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

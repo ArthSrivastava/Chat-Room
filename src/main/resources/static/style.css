@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #e2e2e2;
+}
+::placeholder{
+    color: white;
+}
+.card1{
+    height: 60vh;
+    width: 55vw;
+    background-color:#5f27cd;
+    border-radius: 24px;
+    box-shadow: 7px 7px 7px gray;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.inputFields{
+    outline: none;
+    background: none;
+    height: 5vh;
+    width: 19vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #f1c40f;
+    border-radius: 24px;
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.25s;
+    color: white;
+    font-size: 18px;
+}
+.inputFields:focus{
+    border: 3px solid #2ecc71;
+}
+
+.btn{
+    height: 6vh;
+    width: 7vw;
+    background: none;
+    outline: none;
+    border: 3px solid #2980b9;
+    /* border-radius: 24px; */
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    transition: 0.30s;
+    color: #feca57;
+}
+
+.btn:hover{
+    background-color: #f1c40f;
+    color: black;
+}
+
+.welcome{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #f1c40f;
+}
+
+.card2{
+    height: 90vh;
+    width: 55vw;
+    background-color:#5f27cd;
+    border-radius: 24px;
+    box-shadow: 7px 7px 7px gray;
+    padding: 20px;
+}
+
+.fields{
+    text-align: center;
+}
+.msgDiv{
+    height: 80%;
+    width: 90%;
+    margin: 20px 20px 20px 42px;
+    background-color: #ecf0f1;
+    opacity: 0.67;
+    box-shadow: 7px 7px 7px #feca57;
+    border-radius: 24px;
+}
+
+#msgTable{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#card2WelcomeMsg{
+    padding: 10px;
+    font-size: 28px;
+}
