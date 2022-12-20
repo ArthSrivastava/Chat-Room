@@ -99,6 +99,7 @@
     opacity: 0.67;
     box-shadow: 7px 7px 7px #feca57;
     border-radius: 24px;
+    overflow-y: scroll;
 }
 
 #msgTable{
